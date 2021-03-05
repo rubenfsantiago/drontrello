@@ -108,11 +108,11 @@ noble.on('discover', peripheral => {
                 datos.subscribe(() =>{
                         console.log("SUSCRITO A LA CARACTERISTICA");
                 });
-        });
+        });//discoverCharacteristics
+      });//DiscoverServices
     }) //peripheral.connect
   } //peripheral.uuid
-}) //noble.on discover
-
+} //noble.on discover
 
 
 let drone = new Tello();
