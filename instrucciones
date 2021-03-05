@@ -1,0 +1,9 @@
+sudo update
+sudo upgrade
+sudo apt-get install nodejs
+sudo apt-get install npm
+
+npm install @abandonware/noble
+
+https://raw.githubusercontent.com/rubenfsantiago/drontrello/main/dronblue.js
+
